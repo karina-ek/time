@@ -578,7 +578,32 @@
     }
     /* SERVICES */
     .section__services {
-        padding: 100px 0;
+        padding: 100px 0 160px 0;
+    }
+    .services__card-img {
+        width: 470px;
+        height: 320px;
+    }
+    .services__card-head {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .services__card-desc {
+        font-size: 16px;
+    }
+    .services__card-content {
+        height: 320px;
+        flex: 1;
+    }
+    .slick-prev{
+        left: 50%;
+        transform: translateX(calc(-50% - 35px));
+        top: 400px;
+    }
+    .slick-next{
+        left: 50%;
+        transform: translateX(calc(-50% + 35px));
+        top: 400px;
     }
     /* ADVANTAGES */
     .section__advantages {
@@ -607,7 +632,29 @@
     }
     /* MASTERS */
     .section__masters {
-        padding: 50px 0 100px 0;
+        padding: 50px 0 160px 0;
+    }
+    .masters__card-desc{
+        width: 100%;
+    }
+    .masters__card-img {
+        width: 444px;
+        height: 500px;
+    }
+    .masters__card-desc {
+        width: 100%;
+        font-size: 16px;
+    }
+    .masters__card-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .masters__card-content {
+        padding: 40px 0 0 35px;
+        height: 500px;
+    }
+    .section__masters .slick-arrow {
+        top: 520px;
     }
     /* CONTACT */
     .card__name {
@@ -690,6 +737,24 @@
     .section__advantages {
         padding: 60px 0 60px 0;
     }
+    .services__card {
+        flex-direction: column;
+    }
+    .services__card-img {
+        width: 100%;
+        height: 420px;
+    }
+    .services__btn{
+        position: static;
+        margin-top: 20px;
+    }
+    .section__services {
+        padding: 70px 0 110px 0;
+    }
+    .slick-prev,
+    .slick-next {
+        top: 770px;
+    }
     /* ADVANTAGES */
 
     /* GALLERY */
@@ -702,6 +767,27 @@
     /* MASTERS */
     .section__masters {
         padding: 35px 0 70px 0;
+    }
+    .section__masters .slick-arrow {
+        top: 470px;
+    }
+    .section__masters {
+        padding: 35px 0 140px 0;
+    }
+    .masters__card {
+        flex-direction: column;
+        padding: 40px 35px 40px 35px;
+        height: 450px;
+    }
+    .masters__card-img {
+        display: none!important;
+    }
+    .masters__card-content {
+        padding: 0;
+        height: auto;
+    }
+    .masters__slider {
+        margin-top: 30px;
     }
     /* CONTACT */
     .contact__card {
@@ -752,10 +838,37 @@
         gap: 30px;
     }
     /* SERVICES */
-    
+    .slick-prev, .slick-next {
+        top: 830px;
+    }
+    .section__services {
+        padding: 70px 0 140px 0;
+    }
     /* ADVANTAGES */
     .advantages__content {
         width: 100%;
+    }
+    /* MASTERS */
+    .section__masters {
+        padding: 35px 0 150px 0;
+    }
+    .masters__card-img{
+        width: 100%;
+        height: 500px;
+    }
+    .section__masters .slick-arrow {
+        top: 1080px;
+    }
+    .slick-slide img {
+        display: block!important;
+    }
+    .masters__card {
+        padding: 40px;
+        height: auto;
+    }
+    .masters__card-content {
+        padding: 0;
+        height: 450px;
     }
     /* CONTACT */
     .contact__card {
@@ -812,6 +925,24 @@
     .section__services {
         padding: 60px 0;
     }
+    .slick-prev, .slick-next {
+        top: -35px;
+        width: 35px;
+        height: 35px;
+    }
+    .slick-prev {
+        left: auto;
+        right: 0;
+        transform: translateX(-50px);
+    }
+    .services__card-head {
+        font-size: 20px;
+    }
+    .slick-next {
+        left: auto;
+        right: 0;
+        transform: translateX(0);
+    }
     /* ADVANTAGES */
     .advantages__item {
         flex: auto;
@@ -837,6 +968,15 @@
     /* MASTERS */
     .section__masters {
         padding: 30px 0 60px 0;
+    }
+    .section__masters .slick-arrow {
+        top: -65px;
+    }
+    .masters__card-content {
+        padding: 20px;
+    }
+    .masters__card {
+        padding: 0;
     }
     /* CONTACT */
     .section__contact iframe {
