@@ -192,7 +192,52 @@
 .section__services{
     padding: 140px 0;
     display: block;
-    height: 850px;
+}
+
+.services__card{
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.services__card-img{
+    display: block;
+    width: 582px;
+    height: 353px;
+    object-fit: cover;
+}
+
+.services__card-content{
+    position: relative;
+    height: 353px;
+}
+
+.services__card-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.services__card-head span{
+    color: #f0801c;
+}
+
+.services__card-desc{
+    font-size: 17px;
+    line-height: 160%;
+    margin-bottom: 10px;
+}
+
+.services__btn{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 /* ADVANTAGES */
