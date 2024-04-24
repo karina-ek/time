@@ -17,6 +17,8 @@
     <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#000000">
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="theme-color" content="#000000">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
     <!-- Style -->
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -48,7 +50,7 @@
             <div class="main__content">
                 <h1 class="main__title">Твоей прической занимаются настоящие профессионалы</h1>
                 <p class="main__desc">Удобные кресла для качественной стрижки и оформления бороды.  Скидки студентам и школьникам. Еженедельный розыгрыш бесплатной стрижки среди наших подписчиков</p>
-                <a href="https://vk.com/away.php?to=https%3A%2F%2Fn229173.yclients.com%2F&cc_key=" class="main__btn btn" target="_blank">Записаться</a>
+                <a href="https://n229173.yclients.com/" class="main__btn btn" target="_blank">Записаться</a>
             </div>
             <img src="./assets/img/main.jpg" alt="main" class="main__photo">
         </div>
@@ -64,15 +66,51 @@
             </div>
             <div class="services__slider">
                 <div class="services__card">
-                    <img src="./assets/img/photo1.jpg" alt="services1" class="services__card-img">
+                    <img src="./assets/img/services1.jpg" alt="services1" class="services__card-img">
                     <div class="services__card-content">
                         <div class="services__card-head">
                             <h3>Оформление бороды</h3>
-                            <p>600 <span>₽</span></p>
+                            <p>1200 <span>₽</span></p>
                         </div>
                         <p class="services__card-desc">Королевское бритье - это не просто бритьё и опасная бритва, с которой он мастерски умеет обращаться. Это целый ритуал, состоящий из нескольких этапов.</p>
-                        <p class="services__card-desc">Создание формы бороды и четких контуров с использованием ножниц, машинок и шейвера. Также уход за бородой с использованием бальзамов и масел</p>
-                        <a href="#" class="services__btn btn">Записаться</a>
+                        <p class="services__card-desc">Создание формы бороды и четких контуров с использованием ножниц, машинок и шейвера. Также уход за бородой с использованием бальзамов и масел.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="services__btn btn">Записаться</a>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="./assets/img/services2.jpg" alt="services1" class="services__card-img">
+                    <div class="services__card-content">
+                        <div class="services__card-head">
+                            <h3>Стрижка усов</h3>
+                            <p>600 <span>₽</span></p>
+                        </div>
+                        <p class="services__card-desc">Профессиональная стрижка и формирование усов с использованием ножниц и машинок. Подчеркнутые контуры для выразительного облика.</p>
+                        <p class="services__card-desc">Тщательное бритье скул с применением классических и современных методов, чтобы выглядеть стильно и ухоженно.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="services__btn btn">Записаться</a>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="./assets/img/services3.jpg" alt="services1" class="services__card-img">
+                    <div class="services__card-content">
+                        <div class="services__card-head">
+                            <h3>Мужская стрижка</h3>
+                            <p>1800 <span>₽</span></p>
+                        </div>
+                        <p class="services__card-desc">Стрижка, соответствующая последним трендам и стилям, подходящая для любого типа волос. Наши мастера всегда в курсе самых модных и актуальных стрижек.</p>
+                        <p class="services__card-desc">Консультация с мастером по выбору подходящего стиля и формы. Профессиональная стрижка с использованием высококачественных инструментов.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="services__btn btn">Записаться</a>
+                    </div>
+                </div>
+                <div class="services__card">
+                    <img src="./assets/img/services4.jpg" alt="services1" class="services__card-img">
+                    <div class="services__card-content">
+                        <div class="services__card-head">
+                            <h3>Комплекс</h3>
+                            <p>1800 <span>₽</span></p>
+                        </div>
+                        <p class="services__card-desc">Это идеальное решение для тех, кто ценит время и качество. Включает в себя стрижку волос по желанию клиента, коррекцию контуров и обработку бороды.</p>
+                        <p class="services__card-desc">Профессиональная консультация по выбору стиля, который подходит вашему образу. Мастера нашего салона уделяют внимание каждой детали, чтобы ваша стрижка была идеальной.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="services__btn btn">Записаться</a>
                     </div>
                 </div>
             </div>
@@ -140,6 +178,42 @@
                 <h2 class="section__head-title">Мастера</h2>
                 <p class="section__head-subtitle">#MASTERS</p>
             </div>
+            <div class="masters__slider">
+                <div class="masters__card">
+                    <div class="masters__card-content">
+                        <h3 class="masters__card-title">Макс</h3>
+                        <p class="masters__card-desc">Начал с учебы в Самаре на барбера. Тогда я спонтанно загорелась желанием освоить эту профессию и до сих пор горю этим делом.</p>
+                        <p class="masters__card-desc">С переездом в Питер у меня открылись большие возможности в обучении и работе в разных местах.</p>
+                        <p class="masters__card-desc">Самое классное в моей профессии - отсутствие потолка в развитии и бесконечное количество форм стрижек. Я обожаю осваивать новое и стремиться к идеалу в своих навыках.</p>
+                        <p class="masters__card-desc">В свой работе я ценю аккуратность. К процессу подхожу как художник. В стрижках, как и в бороде, я предпочитаю современную классику, простоту, лаконичность форм</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="masters__btn services__btn btn">Записаться</a>
+                    </div>
+                    <img src="./assets/img/masters1.jpg" alt="masters1" class="masters__card-img">
+                </div>
+                <div class="masters__card">
+                    <div class="masters__card-content">
+                        <h3 class="masters__card-title">Дмитрий</h3>
+                        <p class="masters__card-desc">Моё погружение в мир барберинга началось с детства, когда я помогал дедушке в его старом барбершопе. Этот опыт зажег во мне страсть к мастерству и желание делать людей красивее.</p>
+                        <p class="masters__card-desc">Профессиональное обучение и работа в различных салонах помогли мне развить свой стиль и уникальный подход к каждому клиенту.</p>
+                        <p class="masters__card-desc">В моей работе я ценю внимание к деталям и акцент на качестве. Каждая стрижка для меня - это не просто процесс, а творческий акт, воплощение индивидуальности клиента.</p>
+                        <p class="masters__card-desc">Я постоянно совершенствую свои навыки, изучая новые техники и следя за последними тенденциями в мире барберинга, чтобы всегда предлагать клиентам самые актуальные и стильные образы.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="masters__btn services__btn btn">Записаться</a>
+                    </div>
+                    <img src="./assets/img/masters2.jpg" alt="masters4" class="masters__card-img">
+                </div>                
+                <div class="masters__card">
+                    <div class="masters__card-content">
+                        <h3 class="masters__card-title">Алексей</h3>
+                        <p class="masters__card-desc">Моё увлечение барберингом началось еще в детстве, когда я наблюдал за работой мастеров в семейном барбершопе. Этот опыт вдохновил меня на изучение искусства стрижки и бритья.</p>
+                        <p class="masters__card-desc">С каждым новым клиентом я видел возможность не только создать стильный образ, но и подарить уверенность и хорошее настроение.</p>
+                        <p class="masters__card-desc">Моя философия работы - это не только умение работать с инструментами, но и понимание желаний клиента. Я стремлюсь создавать индивидуальные образы, которые отражают его личность.</p>
+                        <p class="masters__card-desc">Я постоянно совершенствую свои навыки, следуя за последними трендами и техниками, чтобы мои клиенты всегда получали высочайшее качество услуг.</p>
+                        <a href="https://n229173.yclients.com/" target="_blank" class="masters__btn services__btn btn">Записаться</a>
+                    </div>
+                    <img src="./assets/img/masters3.jpg" alt="masters3" class="masters__card-img">
+                </div>
+                
+            </div>
         </div>
     </section>
 
@@ -205,5 +279,24 @@
 
     <!-- Scripts -->
     <script src="./assets/js/script.js"></script>
+    <!-- Slick Slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.services__slider').slick({
+                arrows: true, // показывать стрелки для переключения
+                prevArrow: '<button type="button" class="slick-prev"></button>',
+                nextArrow: '<button type="button" class="slick-next"></button>'
+            });
+        });
+        $(document).ready(function(){
+            $('.masters__slider').slick({
+                arrows: true, // показывать стрелки для переключения
+                prevArrow: '<button type="button" class="slick-prev"></button>',
+                nextArrow: '<button type="button" class="slick-next"></button>'
+            });
+        });
+    </script>
 </body>
 </html>

@@ -195,7 +195,7 @@
 }
 
 .services__card{
-    display: flex;
+    display: flex!important;
     align-items: flex-start;
     gap: 40px;
     margin-top: 50px;
@@ -223,6 +223,10 @@
     margin-bottom: 20px;
 }
 
+.services__card-head p {
+    margin-right: 2px;
+}
+
 .services__card-head span{
     color: #f0801c;
 }
@@ -238,6 +242,30 @@
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+.slick-arrow {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-position: center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slick-prev {
+    left: -80px;
+    background: url(./../img/arrow-l.svg);
+}
+
+.slick-next {
+    right: -80px;
+    background: url(./../img/arrow-r.svg);
 }
 
 /* ADVANTAGES */
@@ -341,7 +369,52 @@
 
 .section__masters{
     padding: 70px 0 140px 0;
-    height: 1154px;
+}
+
+.masters__slider{
+    margin-top: 50px;
+}
+
+.masters__card{
+    display: flex!important;
+    align-items: flex-start;
+    gap: 30px;
+    color: #fff;
+    background: #000;
+}
+
+.masters__card-content{
+    display: block;
+    flex: 1;
+    padding: 40px 0 0 35px;
+    position: relative;
+    height: 543px;
+}
+
+.masters__card-title{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.masters__card-desc{
+    display: block;
+    width: 555px;
+    margin-bottom: 15px;
+}
+
+.masters__btn{
+    left: 35px;
+    bottom: 50px;
+}
+
+.masters__card-img{
+    display: block;
+    width: 484px;
+    height: 543px;
+    object-fit: cover;
+    object-position: center center;
 }
 
 /* CONTACT */
